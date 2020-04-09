@@ -44,6 +44,5 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |string, index|
-if index !== 1 string += "s" 
-end
+  string += "s" unless index == 1
 end
