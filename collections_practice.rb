@@ -35,7 +35,7 @@ end
 def find_a(array)
   new_array = []
   array.select do |string|
-  if string.first == "a"
+  string.first == "a"
     new_array << string
  end
  return new_array
