@@ -35,7 +35,8 @@ end
 def find_a(array)
   new_array = []
   array.select do |string|
-   new_array << string.start_with?("a")
+   if string == string.start_with?("a")
+     new_array << string
  end
  return new_array
 end
