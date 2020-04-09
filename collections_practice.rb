@@ -40,3 +40,4 @@ def find_a(array)
  end
  return new_array
 end
+end
