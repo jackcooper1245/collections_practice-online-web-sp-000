@@ -31,3 +31,11 @@ def kesha_maker(array)
   end
     return array
 end
+
+def find_a(array)
+  new_array = []
+  array.select do |string|
+   new_array << string.start_with? "a"
+ end
+ return new_array
+end
