@@ -3,3 +3,9 @@ def sort_array_asc(numbers)
     a <=> b 
   end
 end
+
+def sort_array_desc(numbers)
+  numbers.sort do |a, b|
+    b <=> a
+  end
+end
